@@ -1,0 +1,1 @@
+Download marketing_campaign.csv from the Kaggle link in README.md and place it in this folder. Do not rename the file.

@@ -1,0 +1,30 @@
+DATA CLEANING SUMMARY
+=====================
+
+Dataset: Customer Personality Analysis
+Rows before cleaning: 2240
+Columns before cleaning: 29
+Missing values before cleaning: 24
+Duplicate rows found: 0
+Duplicate rows removed: 0
+
+Rows after cleaning: 2240
+Columns after cleaning: 29
+Missing values after cleaning: 0
+Duplicate rows after cleaning: 0
+
+Operations performed:
+1. Checked missing values.
+2. Removed exact duplicate rows.
+3. Trimmed unnecessary leading/trailing spaces in text.
+4. Standardized text capitalization.
+5. Converted known numeric fields to numeric data types.
+6. Converted Dt_Customer to datetime when present.
+7. Filled numeric missing values with the median (except ID).
+8. Filled categorical missing values with the most frequent value (mode).
+9. Standardized column names to lowercase_with_underscores.
+10. Exported the cleaned dataset as cleaned_dataset.csv.
+
+Important:
+Review the data and this summary before submission. Imputation choices should
+be justified for the specific dataset. Missing identifier values are not filled.
